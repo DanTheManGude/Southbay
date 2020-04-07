@@ -2697,7 +2697,8 @@ input[type="button"]:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), url("../../images/bg.jpg"),
+    url("images/overlay.png");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
@@ -2741,7 +2742,7 @@ input[type="button"]:disabled,
 }
 
 #header h1 {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.849);
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
